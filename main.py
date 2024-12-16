@@ -6,7 +6,7 @@ import requests
 from openai import OpenAI
 recognizer = sr.Recognizer()
 engine = pyttsx3.init() # to initialize the pyttsx
-newsapi = "4CvCYUrOYTCFQfJVlasTbDlIQzzXdwW8i2rgonq5"
+newsapi = "Your API KEY"
 
 def speak(text):
     engine.say(text)
