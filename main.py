@@ -61,7 +61,7 @@ def processCommand(c):
         
 if __name__ == "__main__":
     speak("Initializing Jarvis.....")
-    speak("Hello Abhinav I am Jarvis ,How Can I help you...")
+    speak("Hello Master I am Jarvis ,How Can I help you...")
     while True:
         # Listen for the wake word "Jarvis"...
         # Obtain audio from the microphone.
@@ -84,7 +84,7 @@ if __name__ == "__main__":
                     audio = r.listen(source)
                     command = r.recognize_google(audio)
                     if "tell about me" in command:
-                        speak("You are Abhinav. You are currently pursuing BTech in Computer Science, and you are working on Python.")
+                        speak("You are Person. You are currently pursuing BTech in Computer Science, and you are working on Python.")
                     else:
                         speak(f"You said: {command}")
                     
